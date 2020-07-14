@@ -38,10 +38,10 @@ var cnItems = {
     'Unlock the Dot button': '解锁点数按钮',
     'You\'ll loose all your progress!': '您将失去所有进度！',
     'We\'re sorry but alphabet doesn\'t work properly without JavaScript enabled. Please enable it to continue.': '很抱歉，如果不启用JavaScript，字母将无法正常工作。 请启用它以继续。',
-    'Dots': '点数',
-    '': '',
-    '': '',
-    '': '',
+    'Dots': '点',
+    'Button for manual dots': '手动点按钮',
+    'Upgrades owned': '已购买升级',
+    'Manual dots': '手动点',
     '': '',
     '': '',
     '': '',
@@ -167,8 +167,8 @@ var cnExcludePostfix = [
 //小数点：([\d\.]+)
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
-    [/^Reach (.+) dots$/, '达到 $1 点数'],
-    [/^(\d+) Royal points$/, '$1 皇家点数'],
+    [/^Reach (.+) dots$/, '达到 $1 点'],
+    [/^Buy for (.+) k$/, '购买需要 $1 k'],
     [/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
     [/^Usages: (\d+)\/$/, '用途：$1\/'],
     [/^workers: (\d+)\/$/, '工人：$1\/'],
